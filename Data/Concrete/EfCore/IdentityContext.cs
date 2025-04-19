@@ -10,7 +10,7 @@ namespace StoreApp.Data.Concrete.EfCore
 {
     public class IdentityContext:IdentityDbContext<ApplicationUser>
     {
-        public IdentityContext(DbContextOptions<IdentityContext> options)
+        public IdentityContext(DbContextOptions<IdentityContext> options):base(options)
         {
             
         }
