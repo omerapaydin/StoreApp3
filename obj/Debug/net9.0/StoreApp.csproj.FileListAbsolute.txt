@@ -156,3 +156,4 @@
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/StoreApp.pdb
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/StoreApp.genruntimeconfig.cache
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/ref/StoreApp.dll
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/bin/Debug/net9.0/StoreApp.staticwebassets.runtime.json

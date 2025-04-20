@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike1.jpeg",
+      "PackagePath": "staticwebassets/img/nike1.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike2.jpeg",
+      "PackagePath": "staticwebassets/img/nike2.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike3.jpeg",
+      "PackagePath": "staticwebassets/img/nike3.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike4.jpeg",
+      "PackagePath": "staticwebassets/img/nike4.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike5.jpeg",
+      "PackagePath": "staticwebassets/img/nike5.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike6.jpeg",
+      "PackagePath": "staticwebassets/img/nike6.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/p1.jpg",
+      "PackagePath": "staticwebassets/img/p1.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/p2.jpg",
+      "PackagePath": "staticwebassets/img/p2.jpg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.StoreApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.StoreApp.props",
+      "PackagePath": "build\\StoreApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.StoreApp.props",
+      "PackagePath": "buildMultiTargeting\\StoreApp.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.StoreApp.props",
+      "PackagePath": "buildTransitive\\StoreApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
