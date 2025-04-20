@@ -1,39 +1,39 @@
- <div class="row">
-        <div class="col-md-3 mb-4">
-          <h5>Filtrele</h5>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="running" />
-            <label class="form-check-label" for="running"
-              >Koşu Ayakkabısı</label
-            >
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="training" />
-            <label class="form-check-label" for="training">Antrenman</label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="lifestyle" />
-            <label class="form-check-label" for="lifestyle">Günlük</label>
-          </div>
-        </div>
+@model List<Product> 
+<div class="row">
+  <div class="col-md-3 mb-4">
+    <h5>Filtrele</h5>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="running" />
+      <label class="form-check-label" for="running">Koşu Ayakkabısı</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="training" />
+      <label class="form-check-label" for="training">Antrenman</label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="lifestyle" />
+      <label class="form-check-label" for="lifestyle">Günlük</label>
+    </div>
+  </div>
 
-        <div class="col-md-9">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <!-- Ürün 1 -->
-            <div class="col">
-              <div class="card product-card">
-                <img
-                  src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/bcb7f3a2-9fa7-4f7f-9086-41f9949f8390/air-max-dn-ayakkab%C4%B1s%C4%B1s%C4%B1.png"
-                  class="card-img-top"
-                  alt="Air Max"
-                />
-                <div class="card-body">
-                  <h6 class="card-title">Nike Air Max DN</h6>
-                  <p class="card-text text-muted">Erkek Ayakkabısı</p>
-                  <p class="fw-bold">₺3.799,00</p>
-                </div>
-              </div>
+  <div class="col-md-9">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      @foreach(var prd in Model)
+      {
+     <div class="col">
+        <div class="card product-card h-100">
+            <img src="~/img/@prd.Image" class="card-img-top" alt="@prd.Title" style="object-fit: cover; height: 300px;" />
+            <div class="card-body d-flex flex-column justify-content-between">
+            <div>
+                <h6 class="card-title">@prd.Title</h6>
+                <p class="card-text text-muted">@prd.Description</p>
+                <p class="fw-bold">₺@prd.Price</p>
             </div>
-          </div>
+            <button class="btn btn-dark btn-lg mt-3 w-100">Sepete Ekle</button>
+            </div>
         </div>
-      </div>
+    </div>
+        }
+    </div>
+  </div>
+</div>
