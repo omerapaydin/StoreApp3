@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
       "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/img/nike1.jpeg",
       "PackagePath": "staticwebassets/img/nike1.jpeg"
     },

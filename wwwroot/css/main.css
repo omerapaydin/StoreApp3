@@ -1,0 +1,30 @@
+.category-link {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.category-link:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.category-link:active {
+  color: #fff;
+  background-color: #212529;
+}
+
+.card h5 a {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 12px 0;
+  margin-bottom: 20px;
+}
+
+.card h5 a:hover {
+  background-color: #343a40;
+  color: white;
+}
