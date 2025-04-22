@@ -159,4 +159,4 @@
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/bin/Debug/net9.0/StoreApp.staticwebassets.runtime.json
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/StoreApp.RazorAssemblyInfo.cache
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/StoreApp.RazorAssemblyInfo.cs
-/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/compressed/ej773k9hu1-cgbl0cq1i0.gz
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/compressed/ej773k9hu1-8t9j229h2y.gz
