@@ -19,5 +19,9 @@ namespace StoreApp.Controllers
         {
             return View(_productRepository.Products.ToList());
         }
+        public IActionResult List()
+        {
+            return View();
+        }
     }
 }
