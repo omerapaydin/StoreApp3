@@ -5,11 +5,10 @@
         <div class="col-md-6">
           <img
             id="mainImage"
-            src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/fc4c1a0c-61b7-422c-871d-9534c41d05ad/air-max-plus-ayakkab%C4%B1s%C4%B1s%C4%B1.png"
+            src="~/img/@Model.Image"
             alt="Air Max Plus"
             class="product-image mb-3"
           />
-
           <!-- <div class="d-flex gap-2">
             <img
               src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/fc4c1a0c-61b7-422c-871d-9534c41d05ad/air-max-plus-ayakkab%C4%B1s%C4%B1s%C4%B1.png"
@@ -31,10 +30,9 @@
 
         <!-- Product Info -->
         <div class="col-md-6">
-          <h2 class="fw-bold">Nike Air Max Plus</h2>
-          <p class="text-muted">Erkek Ayakkabısı</p>
-          <p class="fw-bold fs-4">₺5.399,00</p>
-
+          <h2 class="fw-bold">@Model.Title</h2>
+          <p class="text-muted">@Model.Description</p>
+          <p class="fw-bold fs-4">₺ @Model.Price</p>
           <p>
             İkonik stil ve Tuned Air deneyimini bir araya getiren bu ayakkabı,
             sokakta rahatlık ve şıklık sunar.
@@ -76,6 +74,7 @@
       }
     </script>
 
-    @section Script{
-        <link rel="styleheet" href="/css/details.css">
-    }
+  @section Script{
+    <link rel="stylesheet" href="/css/details.css">
+
+}

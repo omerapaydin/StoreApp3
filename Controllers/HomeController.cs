@@ -27,7 +27,7 @@ namespace StoreApp.Controllers
          public async Task<IActionResult> Details(int? id)
         {
             var product = await _productRepository.Products.FirstOrDefaultAsync(p=>p.ProductId==id);
-            return View();
+            return View(product);
         }
     }
 }
