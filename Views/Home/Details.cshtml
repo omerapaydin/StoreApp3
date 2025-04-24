@@ -1,0 +1,81 @@
+@model Product
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            id="mainImage"
+            src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/fc4c1a0c-61b7-422c-871d-9534c41d05ad/air-max-plus-ayakkab%C4%B1s%C4%B1s%C4%B1.png"
+            alt="Air Max Plus"
+            class="product-image mb-3"
+          />
+
+          <!-- <div class="d-flex gap-2">
+            <img
+              src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/fc4c1a0c-61b7-422c-871d-9534c41d05ad/air-max-plus-ayakkab%C4%B1s%C4%B1s%C4%B1.png"
+              class="thumbnail active"
+              onclick="changeImage(this)"
+            />
+            <img
+              src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/3dc2c4f2-9f61-4a33-94f4-49972d7557e3/air-max-plus-ayakkab%C4%B1s%C4%B1.png"
+              class="thumbnail"
+              onclick="changeImage(this)"
+            />
+            <img
+              src="https://static.nike.com/a/images/t_prod/w_640,c_limit,f_auto/0a4ff539-90fd-4f5c-a3df-8a798dcaba9f/air-max-plus-ayakkab%C4%B1s%C4%B1.png"
+              class="thumbnail"
+              onclick="changeImage(this)"
+            />
+          </div> -->
+        </div>
+
+        <!-- Product Info -->
+        <div class="col-md-6">
+          <h2 class="fw-bold">Nike Air Max Plus</h2>
+          <p class="text-muted">Erkek Ayakkabısı</p>
+          <p class="fw-bold fs-4">₺5.399,00</p>
+
+          <p>
+            İkonik stil ve Tuned Air deneyimini bir araya getiren bu ayakkabı,
+            sokakta rahatlık ve şıklık sunar.
+          </p>
+
+          <h6>Beden Seç</h6>
+          <div class="mb-3">
+            <button class="btn btn-outline-dark size-btn">40</button>
+            <button class="btn btn-outline-dark size-btn">41</button>
+            <button class="btn btn-outline-dark size-btn">42</button>
+            <button class="btn btn-outline-dark size-btn">43</button>
+            <button class="btn btn-outline-dark size-btn">44</button>
+          </div>
+
+          <h6>Renk Seç</h6>
+          <div class="mb-4">
+            <span class="color-circle" style="background-color: black"></span>
+            <span
+              class="color-circle active"
+              style="background-color: #888"
+            ></span>
+            <span class="color-circle" style="background-color: navy"></span>
+          </div>
+
+          <button class="btn btn-dark btn-lg w-100">Sepete Ekle</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function changeImage(thumb) {
+        const mainImage = document.getElementById("mainImage");
+        mainImage.src = thumb.src;
+
+        document
+          .querySelectorAll(".thumbnail")
+          .forEach((img) => img.classList.remove("active"));
+        thumb.classList.add("active");
+      }
+    </script>
+
+    @section Script{
+        <link rel="styleheet" href="/css/details.css">
+    }
