@@ -1,21 +1,60 @@
-.category-link {
-  transition: all 0.3s ease-in-out;
-  display: flex;
-  align-items: center;
-  padding: 10px 0;
-  margin: 5px 0;
-  border-radius: 4px;
-}
+/* Kategori */
 
-.category-link:hover {
+.form-select {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 500;
   background-color: #f8f9fa;
-  color: #212529;
+  border: 1px solid #ced4da;
+  color: #000;
+  transition: all 0.3s ease;
 }
-
-.category-link:active {
-  color: #fff;
+.form-select:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  color: #000;
+}
+.filter-panel,
+.category-panel {
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.panel-header {
   background-color: #212529;
+  color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+.panel-body {
+  background-color: #fff;
+  color: #000;
+}
+.form-select,
+.form-range,
+.form-label {
+  color: #000;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+.category-item {
+  display: block;
+  padding: 12px 16px;
+  margin: 6px 0;
+  color: #212529;
+  background-color: transparent;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+}
+.category-item:hover {
+  background-color: #f1f1f1;
+}
+/* ------- */
 
 .card h5 a {
   border-radius: 4px;
@@ -28,7 +67,7 @@
   background-color: #343a40;
   color: white;
 }
-/* ------- */
+/* ProductCard */
 .product-card {
   background-color: #1e1e1e;
   border: none;

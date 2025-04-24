@@ -1,28 +1,45 @@
 @model List<Product> 
 <div class="row">
   <div class="col-md-3 mb-4">
-      <div class="card shadow-sm border-0 rounded-4 p-3 bg-light">
-        <h5 class="fw-bold text-center mb-4">
-            <a class="btn btn-dark text-white w-100 py-3" href="/Home/List" style="text-decoration: none; color: white; font-size: 1.1rem;">Kategoriler</a>
-        </h5>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-3 category-link">
-                    Ayakkabı
-                </a>
-            </li>
-            <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-3 category-link">
-                    Kıyafet
-                </a>
-            </li>
-            <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-3 category-link">
-                    Aksesuarlar
-                </a>
-            </li>
-        </ul>
+  
+   <div class="category-panel mb-4">
+        <div class="panel-header p-3 text-center toggle-header" style="cursor:pointer;">
+            <h5 class="text-white mb-0">Kategoriler</h5>
+        </div>
+        <div class="panel-body p-3">
+            <ul class="list-unstyled">
+            <li><a href="#" class="category-item">Ayakkabı</a></li>
+            <li><a href="#" class="category-item">Kıyafet</a></li>
+            <li><a href="#" class="category-item">Aksesuar</a></li>
+            </ul>
+        </div>
     </div>
+
+    <div class="category-panel mb-4">
+        <div class="panel-header p-3 text-center toggle-header" style="cursor:pointer;">
+            <h5 class="text-white mb-0">Cinsiyet</h5>
+        </div>
+        <div class="panel-body p-3">
+            <ul class="list-unstyled">
+            <li><a href="#" class="category-item">Kadın</a></li>
+            <li><a href="#" class="category-item">Erkek</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="filter-panel mb-4">
+        <div class="panel-header p-3 text-center" style="cursor:pointer;">
+            <h5 class="text-white mb-0">Sıralama</h5>
+        </div>
+        <div class="panel-body p-3">
+            <select class="form-select" id="sortOptions">
+                <option selected>Sıralama Seçiniz</option>
+                <option value="priceDesc">Fiyat: Yüksek - Düşük</option>
+                <option value="priceAsc">Fiyat: Düşük - Yüksek</option>
+            </select>
+        </div>
+    </div>
+        
   </div>
 
   <div class="col-md-9">
@@ -57,3 +74,13 @@
     </div>
   </div>
 </div>
+
+
+<script>
+  document.querySelectorAll('.toggle-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const panelBody = header.nextElementSibling;
+      panelBody.style.display = panelBody.style.display === 'none' ? 'block' : 'none';
+    });
+  });
+</script>
