@@ -17,11 +17,11 @@ namespace StoreApp.Controllers
         }
         public IActionResult Index()
         {
-            return View(_productRepository.Products.ToList());
+            return View();
         }
         public IActionResult List()
         {
-            return View();
+            return View(_productRepository.Products.ToList());
         }
     }
 }
