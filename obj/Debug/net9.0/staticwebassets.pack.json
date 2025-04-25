@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/css/Login.css",
+      "PackagePath": "staticwebassets/css/Login.css"
+    },
+    {
       "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/wwwroot/css/details.css",
       "PackagePath": "staticwebassets/css/details.css"
     },

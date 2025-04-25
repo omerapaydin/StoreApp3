@@ -1,0 +1,47 @@
+.login-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+.login-card .form-control {
+  border-radius: 20px;
+  box-shadow: none;
+}
+.login-card .btn {
+  border-radius: 20px;
+}
+.login-card .logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-card .social-btns {
+  display: flex;
+  justify-content: space-between;
+}
+.login-card .social-btns button {
+  width: 48%;
+  border-radius: 20px;
+  padding: 10px;
+}
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+/* button */
+.btn.custom-btn {
+  background: #343a40;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background 0.3s ease-in-out, transform 0.2s, color 0.3s;
+}
+.btn.custom-btn:hover {
+  background: #212529;
+  color: #f8f9fa;
+  transform: scale(1.1);
+}

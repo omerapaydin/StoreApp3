@@ -161,3 +161,4 @@
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/StoreApp.RazorAssemblyInfo.cs
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/compressed/xoue2t5j2l-mjtanjf2ro.gz
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/compressed/ej773k9hu1-cw54i6lpaw.gz
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp/obj/Debug/net9.0/compressed/vik6v7lsj3-zaeh6iegos.gz
