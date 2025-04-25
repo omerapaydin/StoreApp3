@@ -18,28 +18,21 @@
         </div>
     </div>
 
-    <div class="category-panel mb-4">
-        <div class="panel-header p-3 text-center toggle-header" style="cursor:pointer;">
-            <h5 class="text-white mb-0">Cinsiyet</h5>
-        </div>
-        <div class="panel-body p-3">
-            <ul class="list-unstyled">
-            <li><a href="#" class="category-item">Kadın</a></li>
-            <li><a href="#" class="category-item">Erkek</a></li>
-            </ul>
-        </div>
-    </div>
+  
 
     <div class="filter-panel mb-4">
         <div class="panel-header p-3 text-center" style="cursor:pointer;">
             <h5 class="text-white mb-0">Sıralama</h5>
         </div>
         <div class="panel-body p-3">
-            <select class="form-select" id="sortOptions">
-                <option selected>Sıralama Seçiniz</option>
-                <option value="priceDesc">Fiyat: Yüksek - Düşük</option>
-                <option value="priceAsc">Fiyat: Düşük - Yüksek</option>
-            </select>
+            <form action="List" method="get">
+                <select class="form-select" name="sort">
+                    <option selected>Sıralama Seçiniz</option>
+                    <option  value="priceDesc">Fiyat: Yüksek - Düşük</option>
+                    <option  value="priceAsc">Fiyat: Düşük - Yüksek</option>
+                 </select>
+                 <button type="submit" class="mt-2 btn btn-sm btn-dark">Listele</button>
+            </form>
         </div>
     </div>
         

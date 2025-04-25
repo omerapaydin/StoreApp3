@@ -23,15 +23,26 @@ namespace StoreApp.Controllers
         {
             return View();
         }
-        public IActionResult List(int? id)
+        public IActionResult List(int? id,string? sort)
         {
             var products = _productRepository.Products.ToList();
-
 
             if ( id != null)
             {
                 products = products.Where(p=>p.CategoryId==id).ToList();
             }
+
+             if (!string.IsNullOrEmpty(sort))
+                {
+                    if (sort == "priceDesc")
+                    {
+                        products = products.OrderByDescending(p => p.Price).ToList();
+                    }
+                    else if (sort == "priceAsc")
+                    {
+                        products = products.OrderBy(p => p.Price).ToList();
+                    }
+                }
 
             var viewModel = new ProductListViewModel {
                 Products = products,
