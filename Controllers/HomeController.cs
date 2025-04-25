@@ -23,16 +23,21 @@ namespace StoreApp.Controllers
         {
             return View();
         }
-        public IActionResult List(int? id,string? sort)
+        public IActionResult List(int? id,string? sort,string? q)
         {
-            var products = _productRepository.Products.ToList();
+             var products = _productRepository.Products.ToList();
 
-            if ( id != null)
-            {
-                products = products.Where(p=>p.CategoryId==id).ToList();
-            }
+                if ( id != null)
+                {
+                    products = products.Where(p=>p.CategoryId==id).ToList();
+                }
 
-             if (!string.IsNullOrEmpty(sort))
+                if(!String.IsNullOrEmpty(q))
+                {
+                     products = products.Where(p=>p.Description.ToLower().Contains(q.ToLower())).ToList();
+                }
+
+                if (!string.IsNullOrEmpty(sort))
                 {
                     if (sort == "priceDesc")
                     {
@@ -44,12 +49,12 @@ namespace StoreApp.Controllers
                     }
                 }
 
-            var viewModel = new ProductListViewModel {
-                Products = products,
-                Categories = _categoryRepository.Categories.ToList()
-            };
-            return View(viewModel);
-        }
+                var viewModel = new ProductListViewModel {
+                    Products = products,
+                    Categories = _categoryRepository.Categories.ToList()
+                };
+                return View(viewModel);
+            }
          public async Task<IActionResult> Details(int? id)
         {
             var product = await _productRepository.Products.FirstOrDefaultAsync(p=>p.ProductId==id);
