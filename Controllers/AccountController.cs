@@ -97,7 +97,7 @@ namespace StoreApp.Controllers
                 {
                     UserName = model.UserName,
                     Email = model.Email,
-                    ImageFile = model.imageFile
+                    ImageFile = randomFileName
                 };
 
                 var hasher = new PasswordHasher<ApplicationUser>();

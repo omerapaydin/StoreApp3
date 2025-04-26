@@ -15,9 +15,7 @@ namespace StoreApp.ViewModel
         [EmailAddress]
         public string? Email { get; set; }
         [Required]
-        public string? imageFile { get; set; }
 
-        [Required]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
 
