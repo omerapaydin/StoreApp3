@@ -12,5 +12,9 @@ namespace StoreApp3.Controllers
         {
             return View();
         }
+        public IActionResult List()
+        {
+            return View();
+        }
     }
 }
