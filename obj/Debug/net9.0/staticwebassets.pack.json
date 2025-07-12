@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css",
+      "PackagePath": "staticwebassets/css/Details.css"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Login.css",
+      "PackagePath": "staticwebassets/css/Login.css"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/main.css",
+      "PackagePath": "staticwebassets/css/main.css"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg",
+      "PackagePath": "staticwebassets/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg",
+      "PackagePath": "staticwebassets/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg",
+      "PackagePath": "staticwebassets/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-max.jpeg",
+      "PackagePath": "staticwebassets/img/airpods-max.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "PackagePath": "staticwebassets/img/airpods-pro-2-hero-select-202409.png"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applek.png",
+      "PackagePath": "staticwebassets/img/applek.png"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applesd.webp",
+      "PackagePath": "staticwebassets/img/applesd.webp"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/appletab.jpeg",
+      "PackagePath": "staticwebassets/img/appletab.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "PackagePath": "staticwebassets/img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/homepod.jpg",
+      "PackagePath": "staticwebassets/img/homepod.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/key.jpeg",
+      "PackagePath": "staticwebassets/img/key.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/magsafe.jpg",
+      "PackagePath": "staticwebassets/img/magsafe.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/mouse.jpeg",
+      "PackagePath": "staticwebassets/img/mouse.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/p1.jpg",
+      "PackagePath": "staticwebassets/img/p1.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/p2.jpg",
+      "PackagePath": "staticwebassets/img/p2.jpg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/pencil.jpeg",
+      "PackagePath": "staticwebassets/img/pencil.jpeg"
+    },
+    {
+      "Id": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/studio-display.jpeg",
+      "PackagePath": "staticwebassets/img/studio-display.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.storeapp3.props",
+      "PackagePath": "build\\storeapp3.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.storeapp3.props",
+      "PackagePath": "buildMultiTargeting\\storeapp3.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.storeapp3.props",
+      "PackagePath": "buildTransitive\\storeapp3.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.storeapp3.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.storeapp3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -158,3 +158,7 @@
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/storeapp3.staticwebassets.runtime.json
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/kkcv4is0mp-zaeh6iegos.gz
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz
