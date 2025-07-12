@@ -11,10 +11,13 @@ namespace StoreApp3.Controllers
     public class HomeController : Controller
     {
         private readonly IProductRepository _productRepository;
-        public HomeController(IProductRepository productRepository)
+        private readonly ICategoryRepository _categoryRepository;
+        public HomeController(IProductRepository productRepository, ICategoryRepository categoryRepository)
         {
+            _categoryRepository = categoryRepository;
             _productRepository = productRepository;
         }
+       
         public IActionResult Index()
         {
             return View();
