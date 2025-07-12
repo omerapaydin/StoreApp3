@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iAzun3KRWMeyRCiiy7kF7J7H+LOr7AYn4jz0VWb1Fwk=",
+  "Hash": "9nG59dFFqXD9J9JLm5Yti2qX+60E3alFQNvyEdttlFA=",
   "Source": "storeapp3",
   "BasePath": "_content/storeapp3",
   "Mode": "Default",
@@ -17,12 +17,33 @@
   ],
   "Assets": [
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "css/main#[.{fingerprint=nqbze1zwj3}]?.css.gz",
+      "RelativePath": "css/details#[.{fingerprint=mjtanjf2ro}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/details.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "rnf2a20krp",
+      "Integrity": "ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/details.css"
+    },
+    {
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz",
+      "SourceId": "storeapp3",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/storeapp3",
+      "RelativePath": "css/main#[.{fingerprint=cw54i6lpaw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -31,8 +52,8 @@
       "RelatedAsset": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/main.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qvi00jpe2r",
-      "Integrity": "amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=",
+      "Fingerprint": "2rbejrjwq8",
+      "Integrity": "/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/main.css"
@@ -59,33 +80,12 @@
       "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Login.css"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "css/Details#[.{fingerprint=2kogf84yb9}]?.css.gz",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "Fingerprint": "wgi8n0f8rb",
-      "Integrity": "gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/details.css",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "css/Details#[.{fingerprint}]?.css",
+      "RelativePath": "css/details#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -94,11 +94,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2kogf84yb9",
-      "Integrity": "Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY=",
+      "Fingerprint": "mjtanjf2ro",
+      "Integrity": "7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/Details.css"
+      "OriginalItemSpec": "wwwroot/css/details.css"
     },
     {
       "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Login.css",
@@ -136,19 +136,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nqbze1zwj3",
-      "Integrity": "0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=",
+      "Fingerprint": "cw54i6lpaw",
+      "Integrity": "3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/main.css"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/02be045b-4736-4671-a254-d0b94d303d5b.png",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/297629f8-5ac7-41c3-af25-e92ec686a74e#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/02be045b-4736-4671-a254-d0b94d303d5b#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -157,19 +157,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b7dfskoipr",
-      "Integrity": "aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=",
+      "Fingerprint": "ubtrfof2om",
+      "Integrity": "OgxiMK/tYtwahVk1ey954Omtyh1J6lpLt/vJYvrMTyw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg"
+      "OriginalItemSpec": "wwwroot/img/02be045b-4736-4671-a254-d0b94d303d5b.png"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike1.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/3efb8662-4a3e-4636-a7a5-56e43702f799#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/nike1#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,19 +178,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b7dfskoipr",
-      "Integrity": "aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=",
+      "Fingerprint": "wzf3khvnlj",
+      "Integrity": "vJsTN2rhjgR9yUWfcDVzJ4b4Bpcs7+mrfjf3H9CPOhk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg"
+      "OriginalItemSpec": "wwwroot/img/nike1.jpeg"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike2.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/7fdc087d-a7f1-4834-bb90-f4487759ca3c#[.{fingerprint}]?.jpg",
+      "RelativePath": "img/nike2#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -199,19 +199,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b7dfskoipr",
-      "Integrity": "aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=",
+      "Fingerprint": "8oxocaflq8",
+      "Integrity": "eOTWyBx8SFxt1fwFgAReMTYUI7uLFH1KczNka1Lc6ek=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg"
+      "OriginalItemSpec": "wwwroot/img/nike2.jpeg"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-max.jpeg",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike3.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/airpods-max#[.{fingerprint}]?.jpeg",
+      "RelativePath": "img/nike3#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -220,19 +220,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qmhgbt732m",
-      "Integrity": "vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=",
+      "Fingerprint": "kvjal33v8h",
+      "Integrity": "IJSENKN8n19FpnMnjPiEhwatx4eaP1RUhamp7RrsgFI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/airpods-max.jpeg"
+      "OriginalItemSpec": "wwwroot/img/nike3.jpeg"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike4.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/airpods-pro-2-hero-select-202409#[.{fingerprint}]?.png",
+      "RelativePath": "img/nike4#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -241,19 +241,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "103sb0ah32",
-      "Integrity": "MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=",
+      "Fingerprint": "eu9es3lubl",
+      "Integrity": "qn7BY3ElWTGwC+SNEmSAJ7UjSVU017c97AOW4t+cHCo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/airpods-pro-2-hero-select-202409.png"
+      "OriginalItemSpec": "wwwroot/img/nike4.jpeg"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applek.png",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike5.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/applek#[.{fingerprint}]?.png",
+      "RelativePath": "img/nike5#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -262,19 +262,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i35hx8lko5",
-      "Integrity": "8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=",
+      "Fingerprint": "993lmj2rpv",
+      "Integrity": "QxrP0wPyotTdAKS6G1FsUffSmJ6CuK+PrY8L4C3cLbI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/applek.png"
+      "OriginalItemSpec": "wwwroot/img/nike5.jpeg"
     },
     {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applesd.webp",
+      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike6.jpeg",
       "SourceId": "storeapp3",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
       "BasePath": "_content/storeapp3",
-      "RelativePath": "img/applesd#[.{fingerprint}]?.webp",
+      "RelativePath": "img/nike6#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -283,137 +283,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dcgihb2y2j",
-      "Integrity": "PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=",
+      "Fingerprint": "nvqisr89th",
+      "Integrity": "kwBkcL5jCN4/i2uXFWNmRhRVkaMXQo/7pY/PY5/dsCQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/applesd.webp"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/appletab.jpeg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/appletab#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "0pzem2jocy",
-      "Integrity": "zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/appletab.jpeg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/battery_charger__f8vsiut6h1aq_large_2x#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bv9s2x8qdk",
-      "Integrity": "94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/homepod.jpg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/homepod#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "8c760sz0nl",
-      "Integrity": "WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/homepod.jpg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/key.jpeg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/key#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5v06ch99o4",
-      "Integrity": "4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/key.jpeg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/magsafe.jpg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/magsafe#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "vq2hmt01cz",
-      "Integrity": "J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/magsafe.jpg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/mouse.jpeg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/mouse#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "p36cbqiuxd",
-      "Integrity": "5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/mouse.jpeg"
+      "OriginalItemSpec": "wwwroot/img/nike6.jpeg"
     },
     {
       "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/p1.jpg",
@@ -456,59 +330,17 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/p2.jpg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/pencil.jpeg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/pencil#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "lkptsysmuf",
-      "Integrity": "tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/pencil.jpeg"
-    },
-    {
-      "Identity": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/studio-display.jpeg",
-      "SourceId": "storeapp3",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/",
-      "BasePath": "_content/storeapp3",
-      "RelativePath": "img/studio-display#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "771b9qpztf",
-      "Integrity": "03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/studio-display.jpeg"
     }
   ],
   "Endpoints": [
     {
-      "Route": "css/Details.2kogf84yb9.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz",
+      "Route": "css/details.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004237288136"
+          "Quality": "0.003787878788"
         }
       ],
       "ResponseHeaders": [
@@ -518,19 +350,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "263"
         },
         {
           "Name": "ETag",
-          "Value": "\"gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0=\""
+          "Value": "\"ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -546,27 +378,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY=\""
+          "Value": "W/\"7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "2kogf84yb9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Details.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY="
+          "Value": "sha256-7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo="
         }
       ]
     },
     {
-      "Route": "css/Details.2kogf84yb9.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css",
+      "Route": "css/details.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/details.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -575,7 +399,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "351"
+          "Value": "551"
         },
         {
           "Name": "Content-Type",
@@ -583,35 +407,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY=\""
+          "Value": "\"7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "2kogf84yb9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Details.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY="
+          "Value": "sha256-7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo="
         }
       ]
     },
     {
-      "Route": "css/Details.2kogf84yb9.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz",
+      "Route": "css/details.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -620,7 +436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "263"
         },
         {
           "Name": "Content-Type",
@@ -628,15 +444,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0=\""
+          "Value": "\"ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -649,27 +465,19 @@
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "2kogf84yb9"
-        },
-        {
-          "Name": "label",
-          "Value": "css/Details.css.gz"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0="
+          "Value": "sha256-ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio="
         }
       ]
     },
     {
-      "Route": "css/Details.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz",
+      "Route": "css/details.mjtanjf2ro.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.004237288136"
+          "Quality": "0.003787878788"
         }
       ],
       "ResponseHeaders": [
@@ -679,19 +487,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "263"
         },
         {
           "Name": "ETag",
-          "Value": "\"gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0=\""
+          "Value": "\"ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -707,19 +515,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY=\""
+          "Value": "W/\"7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "mjtanjf2ro"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY="
+          "Value": "sha256-7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo="
         }
       ]
     },
     {
-      "Route": "css/Details.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/Details.css",
+      "Route": "css/details.mjtanjf2ro.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/details.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -728,7 +544,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "351"
+          "Value": "551"
         },
         {
           "Name": "Content-Type",
@@ -736,27 +552,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY=\""
+          "Value": "\"7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "mjtanjf2ro"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-Ui+hF0JPgtdFUZ30GBc5rZB0jpc4tCstXx+SPK4DYzY="
+          "Value": "sha256-7jgXmMd4RiW/nvqjP5u6kFaOlM+SYGPygPOXpZeO2Bo="
         }
       ]
     },
     {
-      "Route": "css/Details.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/z5ycj9scss-2kogf84yb9.gz",
+      "Route": "css/details.mjtanjf2ro.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -765,7 +589,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "235"
+          "Value": "263"
         },
         {
           "Name": "Content-Type",
@@ -773,15 +597,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0=\""
+          "Value": "\"ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -794,8 +618,16 @@
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "mjtanjf2ro"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css.gz"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-gHaulwnK3/YUU3HckZjYP1opWisXpl9EFQ0llByIek0="
+          "Value": "sha256-ObJsbHBYGKylQSNLy9ePLIsZVkys7i4mKexu3W96vio="
         }
       ]
     },
@@ -824,7 +656,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -877,7 +709,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -914,7 +746,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -961,7 +793,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1022,7 +854,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1067,7 +899,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1099,12 +931,12 @@
     },
     {
       "Route": "css/main.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002012072435"
+          "Quality": "0.001340482574"
         }
       ],
       "ResponseHeaders": [
@@ -1114,15 +946,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "496"
+          "Value": "745"
         },
         {
           "Name": "ETag",
-          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
+          "Value": "\"/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1142,13 +974,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
+          "Value": "W/\"3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
+          "Value": "sha256-3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA="
         }
       ]
     },
@@ -1163,7 +995,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "2249"
         },
         {
           "Name": "Content-Type",
@@ -1171,11 +1003,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
+          "Value": "\"3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1185,13 +1017,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
+          "Value": "sha256-3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA="
         }
       ]
     },
     {
       "Route": "css/main.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1200,7 +1032,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "496"
+          "Value": "745"
         },
         {
           "Name": "Content-Type",
@@ -1208,11 +1040,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
+          "Value": "\"/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1230,18 +1062,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE="
+          "Value": "sha256-/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA="
         }
       ]
     },
     {
-      "Route": "css/main.nqbze1zwj3.css",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz",
+      "Route": "css/main.cw54i6lpaw.css",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002012072435"
+          "Quality": "0.001340482574"
         }
       ],
       "ResponseHeaders": [
@@ -1251,15 +1083,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "496"
+          "Value": "745"
         },
         {
           "Name": "ETag",
-          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
+          "Value": "\"/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1279,13 +1111,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
+          "Value": "W/\"3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nqbze1zwj3"
+          "Value": "cw54i6lpaw"
         },
         {
           "Name": "label",
@@ -1293,12 +1125,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
+          "Value": "sha256-3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA="
         }
       ]
     },
     {
-      "Route": "css/main.nqbze1zwj3.css",
+      "Route": "css/main.cw54i6lpaw.css",
       "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/css/main.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1308,7 +1140,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1115"
+          "Value": "2249"
         },
         {
           "Name": "Content-Type",
@@ -1316,11 +1148,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU=\""
+          "Value": "\"3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1330,7 +1162,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nqbze1zwj3"
+          "Value": "cw54i6lpaw"
         },
         {
           "Name": "label",
@@ -1338,13 +1170,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0TdPOb691o+uwdy8mN0tl9f5YgE4Beqq3M+ijRzRnIU="
+          "Value": "sha256-3LBKUg0vKrJonyk/66ag8nFmkpgeCEQcQYVGEYHrIOA="
         }
       ]
     },
     {
-      "Route": "css/main.nqbze1zwj3.css.gz",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-nqbze1zwj3.gz",
+      "Route": "css/main.cw54i6lpaw.css.gz",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1353,7 +1185,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "496"
+          "Value": "745"
         },
         {
           "Name": "Content-Type",
@@ -1361,11 +1193,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE=\""
+          "Value": "\"/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:48 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1383,7 +1215,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nqbze1zwj3"
+          "Value": "cw54i6lpaw"
         },
         {
           "Name": "label",
@@ -1391,13 +1223,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-amRXnFtCFoDCBu3wX5e1FrbKScbLAdn0uqGBU8OCRgE="
+          "Value": "sha256-/qFA173TEk0Q8/IGmke2wsXiUugzr8Uks6qMACnuXFA="
         }
       ]
     },
     {
-      "Route": "img/297629f8-5ac7-41c3-af25-e92ec686a74e.b7dfskoipr.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg",
+      "Route": "img/02be045b-4736-4671-a254-d0b94d303d5b.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/02be045b-4736-4671-a254-d0b94d303d5b.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1406,335 +1238,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b7dfskoipr"
-        },
-        {
-          "Name": "label",
-          "Value": "img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/297629f8-5ac7-41c3-af25-e92ec686a74e.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/3efb8662-4a3e-4636-a7a5-56e43702f799.b7dfskoipr.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b7dfskoipr"
-        },
-        {
-          "Name": "label",
-          "Value": "img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/3efb8662-4a3e-4636-a7a5-56e43702f799.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.b7dfskoipr.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "b7dfskoipr"
-        },
-        {
-          "Name": "label",
-          "Value": "img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/7fdc087d-a7f1-4834-bb90-f4487759ca3c.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "721442"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aaOzSPVofV7cGlRvJwMLZUxCzdjdLeuWb7EEANsDvjI="
-        }
-      ]
-    },
-    {
-      "Route": "img/airpods-max.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-max.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101242"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g="
-        }
-      ]
-    },
-    {
-      "Route": "img/airpods-max.qmhgbt732m.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-max.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "101242"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qmhgbt732m"
-        },
-        {
-          "Name": "label",
-          "Value": "img/airpods-max.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vpM3hrYxyB3qNOIZtc7qTUpX0FaJXZRRoa+b3Wtqu0g="
-        }
-      ]
-    },
-    {
-      "Route": "img/airpods-pro-2-hero-select-202409.103sb0ah32.png",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-pro-2-hero-select-202409.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "105554"
+          "Value": "1097570"
         },
         {
           "Name": "Content-Type",
@@ -1742,35 +1246,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=\""
+          "Value": "\"OgxiMK/tYtwahVk1ey954Omtyh1J6lpLt/vJYvrMTyw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "103sb0ah32"
-        },
-        {
-          "Name": "label",
-          "Value": "img/airpods-pro-2-hero-select-202409.png"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4="
+          "Value": "sha256-OgxiMK/tYtwahVk1ey954Omtyh1J6lpLt/vJYvrMTyw="
         }
       ]
     },
     {
-      "Route": "img/airpods-pro-2-hero-select-202409.png",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/airpods-pro-2-hero-select-202409.png",
+      "Route": "img/02be045b-4736-4671-a254-d0b94d303d5b.ubtrfof2om.png",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/02be045b-4736-4671-a254-d0b94d303d5b.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1779,7 +1275,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "105554"
+          "Value": "1097570"
         },
         {
           "Name": "Content-Type",
@@ -1787,48 +1283,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4=\""
+          "Value": "\"OgxiMK/tYtwahVk1ey954Omtyh1J6lpLt/vJYvrMTyw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-MclhaTVpDIVuGFkqsaAfBkE9YWHwBmjKBAbYh5WV6q4="
-        }
-      ]
-    },
-    {
-      "Route": "img/applek.i35hx8lko5.png",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applek.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "147876"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1838,21 +1297,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "i35hx8lko5"
+          "Value": "ubtrfof2om"
         },
         {
           "Name": "label",
-          "Value": "img/applek.png"
+          "Value": "img/02be045b-4736-4671-a254-d0b94d303d5b.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c="
+          "Value": "sha256-OgxiMK/tYtwahVk1ey954Omtyh1J6lpLt/vJYvrMTyw="
         }
       ]
     },
     {
-      "Route": "img/applek.png",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applek.png",
+      "Route": "img/nike1.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike1.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1861,19 +1320,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "147876"
+          "Value": "45836"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/png"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c=\""
+          "Value": "\"vJsTN2rhjgR9yUWfcDVzJ4b4Bpcs7+mrfjf3H9CPOhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1883,13 +1342,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8po72EVyr1Tr/yMkA8L2vTwFLAlv2DPLwlpD1igMC4c="
+          "Value": "sha256-vJsTN2rhjgR9yUWfcDVzJ4b4Bpcs7+mrfjf3H9CPOhk="
         }
       ]
     },
     {
-      "Route": "img/applesd.dcgihb2y2j.webp",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applesd.webp",
+      "Route": "img/nike1.wzf3khvnlj.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike1.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1898,19 +1357,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25502"
+          "Value": "45836"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/webp"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=\""
+          "Value": "\"vJsTN2rhjgR9yUWfcDVzJ4b4Bpcs7+mrfjf3H9CPOhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1920,21 +1379,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "dcgihb2y2j"
+          "Value": "wzf3khvnlj"
         },
         {
           "Name": "label",
-          "Value": "img/applesd.webp"
+          "Value": "img/nike1.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c="
+          "Value": "sha256-vJsTN2rhjgR9yUWfcDVzJ4b4Bpcs7+mrfjf3H9CPOhk="
         }
       ]
     },
     {
-      "Route": "img/applesd.webp",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/applesd.webp",
+      "Route": "img/nike2.8oxocaflq8.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1943,44 +1402,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25502"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PYA2Sp7gujFyHcHgbMo6/mebbHBla5D5Eg0ILXWym8c="
-        }
-      ]
-    },
-    {
-      "Route": "img/appletab.0pzem2jocy.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/appletab.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "111729"
+          "Value": "24960"
         },
         {
           "Name": "Content-Type",
@@ -1988,11 +1410,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=\""
+          "Value": "\"eOTWyBx8SFxt1fwFgAReMTYUI7uLFH1KczNka1Lc6ek=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2002,21 +1424,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "0pzem2jocy"
+          "Value": "8oxocaflq8"
         },
         {
           "Name": "label",
-          "Value": "img/appletab.jpeg"
+          "Value": "img/nike2.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU="
+          "Value": "sha256-eOTWyBx8SFxt1fwFgAReMTYUI7uLFH1KczNka1Lc6ek="
         }
       ]
     },
     {
-      "Route": "img/appletab.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/appletab.jpeg",
+      "Route": "img/nike2.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike2.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2025,7 +1447,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "111729"
+          "Value": "24960"
         },
         {
           "Name": "Content-Type",
@@ -2033,11 +1455,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU=\""
+          "Value": "\"eOTWyBx8SFxt1fwFgAReMTYUI7uLFH1KczNka1Lc6ek=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2047,13 +1469,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zAVEBUDP2MONLNf6sZk726KcCuzUpPjnDgjBKWVzaFU="
+          "Value": "sha256-eOTWyBx8SFxt1fwFgAReMTYUI7uLFH1KczNka1Lc6ek="
         }
       ]
     },
     {
-      "Route": "img/battery_charger__f8vsiut6h1aq_large_2x.bv9s2x8qdk.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "Route": "img/nike3.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike3.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2062,7 +1484,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11262"
+          "Value": "78728"
         },
         {
           "Name": "Content-Type",
@@ -2070,11 +1492,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=\""
+          "Value": "\"IJSENKN8n19FpnMnjPiEhwatx4eaP1RUhamp7RrsgFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJSENKN8n19FpnMnjPiEhwatx4eaP1RUhamp7RrsgFI="
+        }
+      ]
+    },
+    {
+      "Route": "img/nike3.kvjal33v8h.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78728"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJSENKN8n19FpnMnjPiEhwatx4eaP1RUhamp7RrsgFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2084,21 +1543,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bv9s2x8qdk"
+          "Value": "kvjal33v8h"
         },
         {
           "Name": "label",
-          "Value": "img/battery_charger__f8vsiut6h1aq_large_2x.jpg"
+          "Value": "img/nike3.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc="
+          "Value": "sha256-IJSENKN8n19FpnMnjPiEhwatx4eaP1RUhamp7RrsgFI="
         }
       ]
     },
     {
-      "Route": "img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/battery_charger__f8vsiut6h1aq_large_2x.jpg",
+      "Route": "img/nike4.eu9es3lubl.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike4.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2107,7 +1566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11262"
+          "Value": "81399"
         },
         {
           "Name": "Content-Type",
@@ -2115,48 +1574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc=\""
+          "Value": "\"qn7BY3ElWTGwC+SNEmSAJ7UjSVU017c97AOW4t+cHCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-94Z+5h1Pm7lolhqU6pLHIZqriMFGU5pxC45fNsYZktc="
-        }
-      ]
-    },
-    {
-      "Route": "img/homepod.8c760sz0nl.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/homepod.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "173467"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2166,21 +1588,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8c760sz0nl"
+          "Value": "eu9es3lubl"
         },
         {
           "Name": "label",
-          "Value": "img/homepod.jpg"
+          "Value": "img/nike4.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w="
+          "Value": "sha256-qn7BY3ElWTGwC+SNEmSAJ7UjSVU017c97AOW4t+cHCo="
         }
       ]
     },
     {
-      "Route": "img/homepod.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/homepod.jpg",
+      "Route": "img/nike4.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike4.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2189,7 +1611,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173467"
+          "Value": "81399"
         },
         {
           "Name": "Content-Type",
@@ -2197,11 +1619,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w=\""
+          "Value": "\"qn7BY3ElWTGwC+SNEmSAJ7UjSVU017c97AOW4t+cHCo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2211,13 +1633,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WHV3kREHIr2ZO6bYRYjbvaXiEOsStN6FNpr0oKh8M7w="
+          "Value": "sha256-qn7BY3ElWTGwC+SNEmSAJ7UjSVU017c97AOW4t+cHCo="
         }
       ]
     },
     {
-      "Route": "img/key.5v06ch99o4.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/key.jpeg",
+      "Route": "img/nike5.993lmj2rpv.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike5.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,7 +1648,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "150338"
+          "Value": "32861"
         },
         {
           "Name": "Content-Type",
@@ -2234,11 +1656,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=\""
+          "Value": "\"QxrP0wPyotTdAKS6G1FsUffSmJ6CuK+PrY8L4C3cLbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2248,21 +1670,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5v06ch99o4"
+          "Value": "993lmj2rpv"
         },
         {
           "Name": "label",
-          "Value": "img/key.jpeg"
+          "Value": "img/nike5.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk="
+          "Value": "sha256-QxrP0wPyotTdAKS6G1FsUffSmJ6CuK+PrY8L4C3cLbI="
         }
       ]
     },
     {
-      "Route": "img/key.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/key.jpeg",
+      "Route": "img/nike5.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike5.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2271,7 +1693,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "150338"
+          "Value": "32861"
         },
         {
           "Name": "Content-Type",
@@ -2279,11 +1701,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk=\""
+          "Value": "\"QxrP0wPyotTdAKS6G1FsUffSmJ6CuK+PrY8L4C3cLbI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2293,13 +1715,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-4YmcPYvnHutdj0JuFDZBSKQDDfDGZb8ihBUCfMfGtUk="
+          "Value": "sha256-QxrP0wPyotTdAKS6G1FsUffSmJ6CuK+PrY8L4C3cLbI="
         }
       ]
     },
     {
-      "Route": "img/magsafe.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/magsafe.jpg",
+      "Route": "img/nike6.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike6.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2308,7 +1730,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54514"
+          "Value": "93543"
         },
         {
           "Name": "Content-Type",
@@ -2316,11 +1738,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=\""
+          "Value": "\"kwBkcL5jCN4/i2uXFWNmRhRVkaMXQo/7pY/PY5/dsCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2330,13 +1752,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc="
+          "Value": "sha256-kwBkcL5jCN4/i2uXFWNmRhRVkaMXQo/7pY/PY5/dsCQ="
         }
       ]
     },
     {
-      "Route": "img/magsafe.vq2hmt01cz.jpg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/magsafe.jpg",
+      "Route": "img/nike6.nvqisr89th.jpeg",
+      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/nike6.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2345,7 +1767,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54514"
+          "Value": "93543"
         },
         {
           "Name": "Content-Type",
@@ -2353,11 +1775,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc=\""
+          "Value": "\"kwBkcL5jCN4/i2uXFWNmRhRVkaMXQo/7pY/PY5/dsCQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2367,97 +1789,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vq2hmt01cz"
+          "Value": "nvqisr89th"
         },
         {
           "Name": "label",
-          "Value": "img/magsafe.jpg"
+          "Value": "img/nike6.jpeg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J9JKmAd5/FF5qtNeRNMECE+hxIg5ybUugPBDKXAKsFc="
-        }
-      ]
-    },
-    {
-      "Route": "img/mouse.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/mouse.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "61878"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww="
-        }
-      ]
-    },
-    {
-      "Route": "img/mouse.p36cbqiuxd.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/mouse.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "61878"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "p36cbqiuxd"
-        },
-        {
-          "Name": "label",
-          "Value": "img/mouse.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5dxWCoT5nFYqb8U0sJBn/Iw944KGwpKFplxZYWiM4ww="
+          "Value": "sha256-kwBkcL5jCN4/i2uXFWNmRhRVkaMXQo/7pY/PY5/dsCQ="
         }
       ]
     },
@@ -2484,7 +1824,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2529,7 +1869,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2566,7 +1906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2603,7 +1943,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
+          "Value": "Fri, 11 Jul 2025 22:53:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2622,170 +1962,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Yn5HxJVkoTDVZr2wRr4ixuWcHJ1WLVKY4A9B4EtzPbc="
-        }
-      ]
-    },
-    {
-      "Route": "img/pencil.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/pencil.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "44516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k="
-        }
-      ]
-    },
-    {
-      "Route": "img/pencil.lkptsysmuf.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/pencil.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "44516"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lkptsysmuf"
-        },
-        {
-          "Name": "label",
-          "Value": "img/pencil.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-tcq1P7p51C0nylS1FmDSG3qH4ZTFWYfLqJIT+5qUG7k="
-        }
-      ]
-    },
-    {
-      "Route": "img/studio-display.771b9qpztf.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/studio-display.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "167077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "771b9qpztf"
-        },
-        {
-          "Name": "label",
-          "Value": "img/studio-display.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk="
-        }
-      ]
-    },
-    {
-      "Route": "img/studio-display.jpeg",
-      "AssetFile": "/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/wwwroot/img/studio-display.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "167077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Jul 2025 22:25:55 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-03v3QH/mnAMQeAQq8lwwwhHCuviwxBSPNVeM/ZTUOdk="
         }
       ]
     }
