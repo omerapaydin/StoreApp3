@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StoreApp3.Data.Abstract;
+using StoreApp3.ViewModel;
 
 namespace StoreApp3.Controllers
 {
@@ -22,9 +23,22 @@ namespace StoreApp3.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> List()
+        public async Task<IActionResult> List(int? id)
         {
-            return View(await _productRepository.Products.ToListAsync());
+            var products = await _productRepository.Products.ToListAsync();
+            if (id != null)
+            {
+                 products = await _productRepository.Products
+                    .Where(p => p.CategoryId == id)
+                    .ToListAsync();
+            }
+
+            var viewModel = new ProductListViewModel
+            {
+                Products = products,
+                Categories = await _categoryRepository.Categories.ToListAsync()
+            };
+            return View(viewModel);
         }
     }
 }

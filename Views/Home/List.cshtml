@@ -1,38 +1,29 @@
-@model List<Product>
+@model ProductListViewModel
 
 <div class="row">
     <div class="col-md-3">
     
-          <div  class="card shadow-sm border-0 rounded-4 p-3 bg-light">
-            <h5 class="fw-bold text-center mb-3">
-              <a style="text-decoration : none; color : #212529;" href="/Home/List">Kategoriler</a>
-            </h5>
-            <ul class="list-group list-group-flush">
-
-              <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-2">
-                  Kitap
-                </a>
-              </li> 
-              <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-2">
-                  Telefon
-                </a>
-              </li> 
-              <li class="list-group-item bg-transparent border-0">
-                <a class="text-decoration-none text-dark fw-semibold d-block text-center py-2">
-                  Ayakkabı
-                </a>
-              </li> 
-
+        <div class="category-panel mb-4">
+        <div class="panel-header p-3 text-center toggle-header" style="cursor:pointer;">
+            <h5 class="text-white mb-0">Kategoriler</h5>
+        </div>
+        <div class="panel-body p-3">
+            <ul class="list-unstyled">
+            <li><a href="/Home/List" class="category-item">Tümü</a></li>
+            
+            @foreach(var ctg in Model.Categories)
+            {
+              <li><a href="/Home/List/@ctg.CategoryId" class="category-item">@ctg.Name</a></li>
+            }
             </ul>
-          </div>
+        </div>
+         
     </div>
 
 
      <div class="col-md-9">
        <div class="row row-cols-1 row-cols-md-3 g-4">
-        @foreach(var prd in Model)
+        @foreach(var prd in Model.Products)
         {
         <div class="col">
             <div class="card product-card h-100 position-relative">
