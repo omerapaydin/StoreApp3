@@ -9,13 +9,14 @@
         </div>
         <div class="panel-body p-3">
             <ul class="list-unstyled">
-            <li><a href="/Home/List" class="category-item">Tümü</a></li>
-            
-            @foreach(var ctg in Model.Categories)
-            {
-              <li><a href="/Home/List/@ctg.CategoryId" class="category-item">@ctg.Name</a></li>
-            }
+              <li><a href="/Home/List" class="category-item">Tümü</a></li>
+              
+              @foreach(var ctg in Model.Categories)
+              {
+                <li><a href="/Home/List/@ctg.CategoryId" class="category-item">@ctg.Name</a></li>
+              }
             </ul>
+        </div>
         </div>
          
     </div>

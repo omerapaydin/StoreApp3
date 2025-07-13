@@ -11,6 +11,7 @@ builder.Services.AddDbContext<IdentityContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
 });
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
+builder.Services.AddScoped<ICategoryRepository,EfCategoryRepository>();
 
 
 
