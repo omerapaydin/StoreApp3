@@ -23,9 +23,17 @@ namespace StoreApp3.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> List(int? id)
+        public async Task<IActionResult> List(int? id,string? q)
         {
             var products = await _productRepository.Products.ToListAsync();
+
+            if (!string.IsNullOrEmpty(q))
+            {
+                products = await _productRepository.Products
+                    .Where(p => p.Title!.ToLower().Contains(q.ToLower()) || p.Description!.ToLower().Contains(q.ToLower()))
+                    .ToListAsync();
+            }
+
             if (id != null)
             {
                  products = await _productRepository.Products
