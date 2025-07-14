@@ -59,7 +59,6 @@ namespace StoreApp3.Controllers
                     UserName = model.UserName,
                     Email = model.Email,
                     ImageFile = randomFileName,
-
                 };
 
                 var hasher = new PasswordHasher<ApplicationUser>();
@@ -72,6 +71,41 @@ namespace StoreApp3.Controllers
 
         }
 
-        
+
+
+           public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+
+            return RedirectToAction("Login");
+        }
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginViewModel loginViewModel)
+        {
+
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(loginViewModel.Email!);
+
+                if (user != null)
+                {
+                    await _signInManager.SignOutAsync();
+                   await _signInManager.PasswordSignInAsync(user,loginViewModel.Password!, loginViewModel.RememberMe, false);
+                   
+                        return RedirectToAction("Index", "Home");
+                 
+                }else
+                {
+                    ModelState.AddModelError("", "Kullanıcı bulunamadı");
+                }
+
+
+            }
+            return View(loginViewModel);
+        }
     }
 }
