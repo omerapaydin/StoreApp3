@@ -1,0 +1,74 @@
+@model CreateViewModel
+
+<div class="container d-flex justify-content-center align-items-center min-vh-50 py-1">
+
+ <div class="login-card w-50">
+     <div class="logo" >
+        <h3>Sign Up</h3>
+      </div>
+   <form asp-controller="Account" asp-action="Create" method="post" enctype="multipart/form-data">
+      <div class="text-danger" asp-validation-summary="All"></div>
+
+    <div class="mb-3">
+      <input
+            class="form-control"
+            asp-for="UserName"
+            placeholder="Username"
+            required
+          />
+    </div>
+
+      <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            asp-for="Email"
+            placeholder="Email"
+            required
+          />
+      </div>
+      <div class="mb-3">
+         <input
+            type="file"
+            name="imageFile"
+            id="imageFile"
+            class="form-control"
+          />
+
+      </div>
+
+      <div class="mb-3">
+             <input
+            type="password"
+            class="form-control"
+            asp-for="Password"
+            placeholder="Password"
+            required
+          />
+        </div>
+           <div class="mb-3">
+             <input
+            type="password"
+            class="form-control"
+            asp-for="ConfirmPassword"
+            placeholder="ConfirmPassword"
+            required
+          />
+        </div>
+
+        <div class="mb-5">
+
+       <button type="submit" class="btn custom-btn w-100">
+             SignUp
+        </button>
+        </div>
+    </form>
+
+</div>
+</div>
+
+
+
+@section NewCss {
+    <link rel="stylesheet" href="/css/Login.css">
+}

@@ -1,10 +1,15 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using StoreApp3.Data.Abstract;
 using StoreApp3.Data.Concrete.EfCore;
+using StoreApp3.Entity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<IdentityContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.AddDbContext<IdentityContext>(options =>
 {
@@ -20,6 +25,8 @@ var app = builder.Build();
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseAuthorization();
+app.UseAuthentication();
 
 
 app.MapControllerRoute(

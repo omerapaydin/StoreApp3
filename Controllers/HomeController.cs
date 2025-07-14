@@ -23,7 +23,7 @@ namespace StoreApp3.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> List(int? id,string? q)
+        public async Task<IActionResult> List(int? id,string? q,string? sort)
         {
             var products = await _productRepository.Products.ToListAsync();
 
@@ -34,11 +34,24 @@ namespace StoreApp3.Controllers
                     .ToListAsync();
             }
 
+             if (!string.IsNullOrEmpty(sort))
+                {
+                    if (sort == "priceDesc")
+                    {
+                        products = products.OrderByDescending(p => p.Price).ToList();
+                    }
+                    else if (sort == "priceAsc")
+                    {
+                        products = products.OrderBy(p => p.Price).ToList();
+                    }
+                }
+            
+
             if (id != null)
             {
-                 products = await _productRepository.Products
-                    .Where(p => p.CategoryId == id)
-                    .ToListAsync();
+                products = await _productRepository.Products
+                   .Where(p => p.CategoryId == id)
+                   .ToListAsync();
             }
 
             var viewModel = new ProductListViewModel
