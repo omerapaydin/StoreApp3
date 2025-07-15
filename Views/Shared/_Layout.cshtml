@@ -63,10 +63,15 @@
           @if(User!.Identity.IsAuthenticated)
           {
             <li class="nav-item">
-              <a class="nav-link" href="">
+                <a class="nav-link" href="">
                 <i class="bi bi-cart fs-5"></i>
               </a>
              </li>
+             <li class="nav-item">
+               <a class="nav-link" href="/Home/AddProduct" >
+                <i class="bi bi-plus-square fs-5"></i>
+              </a>
+            </li>
               <li class="nav-item">
                 <a href="/Account/Logout" class="btn btn-link nav-link p-0">
                   <i class="bi bi-box-arrow-right fs-5"></i>

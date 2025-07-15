@@ -77,17 +77,46 @@ namespace StoreApp3.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddProduct(AddProductViewModel model)
+        public async Task<IActionResult> AddProduct(AddProductViewModel model, IFormFile imageFile)
         {
+            
+                var extension = "";
+
+            if (imageFile != null)
+            {
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png" };
+                extension = Path.GetExtension(imageFile.FileName);
+
+                if (!allowedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("", "Geçerli bir resim seçiniz");
+                    return View(model);
+                }
+            }
+                else
+                {
+                    ModelState.AddModelError("", "Lütfen bir resim dosyası seçiniz");
+                    return View(model); 
+                }
+
+
             if (ModelState.IsValid)
             {
+
+                var randomFileName = $"{Guid.NewGuid()}{extension}";
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
+                  using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+
                 if (User.Identity!.IsAuthenticated)
                 {
                     var product = new Product
                     {
                         Title = model.Title,
                         Description = model.Description,
-                        Image = model.Image,
+                        Image = randomFileName,
                         PublishedOn = DateTime.Now,
                         Price = model.Price,
                         UserId = _userManager.GetUserId(User)!,
@@ -95,7 +124,7 @@ namespace StoreApp3.Controllers
                     };
 
                     _productRepository.AddProduct(product);
-                      return RedirectToAction("List","Home");
+                    return RedirectToAction("List", "Home");
                 }
             }
             return View(model);
