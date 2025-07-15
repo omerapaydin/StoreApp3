@@ -1,0 +1,49 @@
+@model AddProductViewModel
+
+<div class="row">
+  <div class="col-md-12">
+    <h2 class="text-center mt-2" style=" color: #743873;">Create Product</h2>
+    <form
+      asp-controller="Home"
+      asp-action="AddProduct"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <div class="p-4 bg-white">
+        <input type="hidden" >
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="mb-3">
+          <label asp-for="Title" class="form-label"></label>
+          <input asp-for="Title" class="form-control" />
+          <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+          <label asp-for="Description" class="form-label"></label>
+          <input asp-for="Description" class="form-control" />
+          <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="file"
+            name="imageFile"
+            id="imageFile"
+            class="form-control"
+          />
+        </div>
+
+        <div class="mb-3">
+          <label asp-for="Price" class="form-label"></label>
+          <input asp-for="Price" class="form-control" />
+          <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+          <label for="CategoryId">Kategori</label>
+          <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control">
+              <option selected disabled>Tüm Kategoriler</option>
+          </select>
+        </div>
+            <button class="btn btn-warning" type="submit">Save</button>
+      </div>
+    </form>
+  </div>
+</div>

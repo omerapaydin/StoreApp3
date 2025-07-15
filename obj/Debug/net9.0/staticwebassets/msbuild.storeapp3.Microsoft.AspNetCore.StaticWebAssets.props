@@ -72,6 +72,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\02be045b-4736-4671-a254-d0b94d303d5b.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\eba98cf1-8235-4bfa-bc2b-535dd4bec545.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>storeapp3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/storeapp3</BasePath>
+      <RelativePath>img/eba98cf1-8235-4bfa-bc2b-535dd4bec545.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jpxcukoqzk</Fingerprint>
+      <Integrity>p+MN3cHsEX4uGuFeYryBAWpECpKWy2iuZPB2TRyuYqo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\eba98cf1-8235-4bfa-bc2b-535dd4bec545.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\nike1.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>storeapp3</SourceId>

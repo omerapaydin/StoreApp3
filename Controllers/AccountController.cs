@@ -2,13 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using StoreApp3.Entity;
 using StoreApp3.ViewModel;
 
 namespace StoreApp3.Controllers
-{
+{   
     public class AccountController : Controller
     {
         private UserManager<ApplicationUser> _userManager;
@@ -72,7 +73,7 @@ namespace StoreApp3.Controllers
         }
 
 
-
+        [Authorize]
            public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();

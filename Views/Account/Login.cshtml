@@ -1,0 +1,56 @@
+@model LoginViewModel
+
+
+
+<div class="container d-flex justify-content-center align-items-center min-vh-50 py-1">
+
+ <div class="login-card w-50">
+     <div class="logo" >
+        <h3>Sign In</h3>
+      </div>
+    <form asp-controller="Account" asp-action="Login" method="post">
+      <div class="text-danger" asp-validation-summary="All"></div>
+      <div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            asp-for="Email"
+            placeholder="Email"
+            required
+          />
+      </div>
+      <div class="mb-3">
+             <input
+            type="password"
+            class="form-control"
+            asp-for="Password"
+            placeholder="Password"
+            required
+          />
+        </div>
+         <div class="remember-me mb-3">
+          <input type="checkbox" asp-for="RememberMe" />
+          <label asp-for="RememberMe" class="ms-2">Beni Hatırla</label>
+        </div>
+
+        <div class="mb-5">
+
+        <button type="submit" class="btn custom-btn btn-block w-100">
+          SignIn
+        </button>
+
+        <a href="/Account/Create">SignUp</a>
+
+        </div>
+    </form>
+
+</div>
+</div>
+
+
+
+
+
+@section NewCss {
+    <link rel="stylesheet" href="/css/Login.css">
+}
