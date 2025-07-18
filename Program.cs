@@ -11,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<IdentityContext>()
     .AddDefaultTokenProviders();
 
+builder.Services.AddRazorPages();
+
 builder.Services.AddDbContext<IdentityContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
@@ -33,5 +35,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}"
 );
+
+app.MapRazorPages();
 
 app.Run();
