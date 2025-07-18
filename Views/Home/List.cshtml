@@ -63,9 +63,12 @@
                   <p class="fw-bold">₺@prd.Price</p>
                   </div>
 
-                  <button class="btn btn-outline-light mt-3 add-to-cart-btn">
-                  <i class="fa-solid fa-cart-plus me-2"></i>Sepete Ekle
-                  </button>
+                 <form method="post" asp-page="/Cart">
+                     <input type="hidden" name="ProductId" asp-for="@prd.ProductId">
+                    <button type="submit" class="btn btn-outline-light mt-3 add-to-cart-btn">
+                      <i class="fa-solid fa-cart-plus me-2"></i>Sepete Ekle
+                    </button>
+                 </form>
               </div>
               </div>
           </div>
