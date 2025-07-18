@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using StoreApp3.Data.Abstract;
 using StoreApp3.Data.Concrete.EfCore;
 using StoreApp3.Entity;
+using StoreApp3.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,11 +20,13 @@ builder.Services.AddDbContext<IdentityContext>(options =>
 });
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 builder.Services.AddScoped<ICategoryRepository,EfCategoryRepository>();
-
+builder.Services.AddScoped<Cart>();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 
 
 var app = builder.Build();
-
+app.UseSession();
 app.UseRouting();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
