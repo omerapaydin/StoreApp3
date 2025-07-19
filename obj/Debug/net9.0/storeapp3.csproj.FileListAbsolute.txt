@@ -162,3 +162,5 @@
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/kkcv4is0mp-zaeh6iegos.gz
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/5mkcd7d89t-mjtanjf2ro.gz
 /Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/obj/Debug/net9.0/compressed/e58azh8bii-cw54i6lpaw.gz
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/Iyzipay.dll
+/Users/omerapaydin/Desktop/E-Ticaret3/StoreApp3/bin/Debug/net9.0/Newtonsoft.Json.dll
