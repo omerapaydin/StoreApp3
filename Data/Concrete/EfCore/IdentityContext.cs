@@ -19,13 +19,15 @@ namespace StoreApp3.Data.Concrete.EfCore
         public DbSet<Product> Products => Set<Product>();
         public DbSet<Category> Categories => Set<Category>();
         public DbSet<Comment> Comments => Set<Comment>();
+        public DbSet<Order> Orders { get; set; }
+
         
           protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        base.OnConfiguring(optionsBuilder);
+        {
+            base.OnConfiguring(optionsBuilder);
 
-        optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
-    }
+            optionsBuilder.ConfigureWarnings(warnings => warnings.Ignore(RelationalEventId.PendingModelChangesWarning));
+        }
 
 
      protected override void OnModelCreating(ModelBuilder modelBuilder)

@@ -19,7 +19,8 @@ builder.Services.AddDbContext<IdentityContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
 });
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
-builder.Services.AddScoped<ICategoryRepository,EfCategoryRepository>();
+builder.Services.AddScoped<ICategoryRepository, EfCategoryRepository>();
+builder.Services.AddScoped<IOrderRepository,EfOrderRepository>();
 builder.Services.AddScoped<Cart>();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
