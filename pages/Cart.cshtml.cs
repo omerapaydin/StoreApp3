@@ -9,7 +9,7 @@ using StoreApp3.Data.Abstract;
 using StoreApp3.Helpers;
 using StoreApp3.Models;
 
-namespace StoreApp3.pages
+namespace StoreApp3.Pages
 {
     public class CartPageModel : PageModel
     {
