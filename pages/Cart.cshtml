@@ -1,11 +1,54 @@
 @page
-@model StoreApp3.pages.Cart
-@{
-    ViewData["Title"] = "Cart";
+@model StoreApp3.Pages.CartPageModel
+@using StoreApp3.Models
+
+<h2 class="my-5">Alışveriş Sepeti</h2>
+
+@if(Model?.Carts?.Items.Count() == 0)
+{
+    <div class="alert alert-warning">Sepetiniz boş.</div>
+}
+else
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Quantity</th>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>        
+           @foreach(var item in Model?.Carts?.Items ?? Enumerable.Empty<CartItem>())
+            {
+                <tr>
+                    <td>@item.Quantity</td>
+                    <td>@item.Product.Title</td>
+                    <td>@item.Product.Price</td>
+                    <td>@((item.Quantity * (item.Product.Price ?? 0)).ToString()) ₺</td>
+                    <td>
+                      <form method="post" asp-page-handler="Remove">
+                            <input type="hidden" name="ProductId" value="@item.Product.ProductId">
+                            <button type="submit" class="btn btn-sm custom-btn">Delete</button>
+                        </form>
+                     </td>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+                <tr>
+                    <td colspan="3">Total:</td>
+                    <td>
+                        @Model?.Carts?.CalculateTotal() ₺
+                    </td>
+                </tr>
+        </tfoot>
+    </table>
 }
 
-<h1>@ViewData["Title"]</h1>
-
 <div>
-    
+    <a class="btn custom-btn me-2" href="/Home/List">Alışverişe Devam Et</a>  
+     <a asp-controller="Order" asp-action="Checkout" class="btn custom-btn">Siparişi Tamamla</a>
 </div>
