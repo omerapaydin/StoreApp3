@@ -18,6 +18,31 @@ builder.Services.AddDbContext<IdentityContext>(options =>
 {
     options.UseSqlite(builder.Configuration.GetConnectionString("sql_connection"));
 });
+
+builder.Services.AddScoped<IEmailSender, SmtpEmailSender>(i =>
+new SmtpEmailSender(
+    builder.Configuration["EmailSender:Host"],
+    builder.Configuration.GetValue<int>("EmailSender:Port"),
+    builder.Configuration.GetValue<bool>("EmailSender:EnableSSL"),
+    builder.Configuration["EmailSender:Username"],
+    builder.Configuration["EmailSender:Password"]
+
+));
+
+builder.Services.Configure<IdentityOptions>(options=>{
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequireNonAlphanumeric = false;  
+    options.User.RequireUniqueEmail = true;  
+    options.SignIn.RequireConfirmedEmail = true;
+});
+
+builder.Services.ConfigureApplicationCookie(options =>{
+    options.LoginPath = "/Account/Login"; 
+   
+});
+
 builder.Services.AddScoped<IProductRepository,EfProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EfCategoryRepository>();
 builder.Services.AddScoped<IOrderRepository,EfOrderRepository>();

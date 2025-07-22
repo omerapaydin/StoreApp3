@@ -9,26 +9,30 @@ using StoreApp3.Entity;
 using StoreApp3.ViewModel;
 
 namespace StoreApp3.Controllers
-{   
+{
     public class AccountController : Controller
     {
         private UserManager<ApplicationUser> _userManager;
         private SignInManager<ApplicationUser> _signInManager;
-        public AccountController(UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager)
+        private readonly StoreApp3.Models.IEmailSender _emailSender;
+
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, StoreApp3.Models.IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _emailSender = emailSender;
+
 
         }
-         public IActionResult Create()
+        public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
-        
-         public async Task<IActionResult> Create(CreateViewModel model,IFormFile? imageFile)
+
+        public async Task<IActionResult> Create(CreateViewModel model, IFormFile? imageFile)
         {
-               var extension = "";
+            var extension = "";
 
             if (imageFile != null)
             {
@@ -44,11 +48,11 @@ namespace StoreApp3.Controllers
             else
             {
                 ModelState.AddModelError("", "Lütfen bir resim dosyası seçiniz");
-                return View(model); 
+                return View(model);
             }
             if (ModelState.IsValid)
             {
-                 var randomFileName = $"{Guid.NewGuid()}{extension}";
+                var randomFileName = $"{Guid.NewGuid()}{extension}";
                 var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
 
                 using (var stream = new FileStream(path, FileMode.Create))
@@ -65,19 +69,19 @@ namespace StoreApp3.Controllers
                 var hasher = new PasswordHasher<ApplicationUser>();
                 user.PasswordHash = hasher.HashPassword(user, model.Password);
 
-                         IdentityResult result= await _userManager.CreateAsync(user);
+                IdentityResult result = await _userManager.CreateAsync(user);
                 if (result.Succeeded)
                 {
-                      var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
-
-                  
-                await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5041{url}'> tıklayınız. <a/>");
+                    var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var url = Url.Action("ConfirmEmail", "Account", new { user.Id, token });
 
 
+                    await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı", $"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5041{url}'> tıklayınız. <a/>");
 
-                TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
-                return RedirectToAction("Login", "Account");
+
+
+                    TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
+                    return RedirectToAction("Login", "Account");
                 }
             }
             return View(model);
@@ -86,7 +90,7 @@ namespace StoreApp3.Controllers
 
 
         [Authorize]
-           public async Task<IActionResult> Logout()
+        public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
 
@@ -107,11 +111,28 @@ namespace StoreApp3.Controllers
                 if (user != null)
                 {
                     await _signInManager.SignOutAsync();
-                   await _signInManager.PasswordSignInAsync(user,loginViewModel.Password!, loginViewModel.RememberMe, false);
-                   
+
+                    if (!await _userManager.IsEmailConfirmedAsync(user))
+                    {
+                        ModelState.AddModelError("", "Hesabınızı onaylayınız.");
+                        return View(loginViewModel);
+                    }
+
+                    var result = await _signInManager.PasswordSignInAsync(user, loginViewModel.Password!, loginViewModel.RememberMe, false);
+
+                    if (result.Succeeded)
+                    {
                         return RedirectToAction("Index", "Home");
-                 
-                }else
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "hatalı parola ya da password");
+                    }
+
+                    return RedirectToAction("Index", "Home");
+
+                }
+                else
                 {
                     ModelState.AddModelError("", "Kullanıcı bulunamadı");
                 }
@@ -120,5 +141,34 @@ namespace StoreApp3.Controllers
             }
             return View(loginViewModel);
         }
+        
+ public async Task<IActionResult> ConfirmEmail(string Id, string token)
+        {
+            if(Id == null || token == null)
+            {
+                TempData["message"] = "Geçersiz token bilgisi";
+                return View();
+            }
+
+             var user = await _userManager.FindByIdAsync(Id);
+
+            if (user != null)
+            {
+                var result = await _userManager.ConfirmEmailAsync(user,token);
+
+
+                if (result.Succeeded)
+                {
+                    TempData["message"] = "Hesabınız onaylandı";
+                    return RedirectToAction("Login","Account");
+                }
+            }
+
+            TempData["message"] = "Kullanıcı bulunamadı onaylandı";
+                    return View();
+        }
+
+
+
     }
 }
