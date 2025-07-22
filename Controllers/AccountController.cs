@@ -65,8 +65,20 @@ namespace StoreApp3.Controllers
                 var hasher = new PasswordHasher<ApplicationUser>();
                 user.PasswordHash = hasher.HashPassword(user, model.Password);
 
-                await _userManager.CreateAsync(user);
+                         IdentityResult result= await _userManager.CreateAsync(user);
+                if (result.Succeeded)
+                {
+                      var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                var url = Url.Action("ConfirmEmail", "Account", new{user.Id,token});
+
+                  
+                await _emailSender.SendEmailAsync(user.Email, "Hesap Onayı",$"Lütfen email hesabınızı onaylamak için linke <a href='http://localhost:5041{url}'> tıklayınız. <a/>");
+
+
+
+                TempData["message"] = "Email hesabınızdaki onay mailine tıkla.";
                 return RedirectToAction("Login", "Account");
+                }
             }
             return View(model);
 
