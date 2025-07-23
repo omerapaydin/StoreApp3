@@ -174,35 +174,74 @@ namespace StoreApp3.Controllers
             return View();
         }
 
-           [HttpPost]
-          public async Task<IActionResult> ForgotPassword(string Email)
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(string Email)
         {
-            if(string.IsNullOrEmpty(Email))
+            if (string.IsNullOrEmpty(Email))
             {
-                 TempData["message"] = "Eposta giriniz";
-                 return View();
+                TempData["message"] = "Eposta giriniz";
+                return View();
 
             }
 
             var user = await _userManager.FindByEmailAsync(Email);
-            
+
             if (user == null)
             {
-                 TempData["message"] = "Eposta yok";
+                TempData["message"] = "Eposta yok";
 
                 return View();
             }
 
             var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-             var url = Url.Action("ResetPassword", "Account", new{user.Id,token});
+            var url = Url.Action("ResetPassword", "Account", new { user.Id, token });
 
-              await _emailSender.SendEmailAsync(user.Email, "Şifre Sıfırlama",$"Lütfen şifre değiştirmek için linke <a href='http://localhost:5041{url}'> tıklayınız. <a/>");
+            await _emailSender.SendEmailAsync(user.Email, "Şifre Sıfırlama", $"Lütfen şifre değiştirmek için linke <a href='http://localhost:5199{url}'> tıklayınız. <a/>");
 
-              TempData["message"] = "Epostanıza gönderilen link ile şifrenizi sıfırlayabilirsiniz.";
+            TempData["message"] = "Epostanıza gönderilen link ile şifrenizi sıfırlayabilirsiniz.";
 
-             return View();
+            return View();
 
         }
+
+        public IActionResult ResetPassword(string Id, string token)
+        {
+            if (Id == null || token == null)
+            {
+                return RedirectToAction("Login");
+            }
+            var model = new ResetPasswordModel { Token = token };
+            return View(model);
+        }
+            
+              [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordModel model)
+            {
+                if(ModelState.IsValid)
+                {
+                    var user = await _userManager.FindByEmailAsync(model.Email);
+
+                 if(user == null)
+                 {
+                     TempData["message"] = "Email adresiyle eşleşen kullanıcı yok.";
+                    return RedirectToAction("Login");
+                 }
+
+                    var result = await _userManager.ResetPasswordAsync(user,model.Token,model.Password);
+
+                    if(result.Succeeded)
+
+                    {
+                          TempData["message"] = "Şifre değiştirildi.";
+                        return RedirectToAction("Login");
+                        
+                    }
+
+
+                }
+                return View(model);
+
+            }
 
 
 
