@@ -141,31 +141,67 @@ namespace StoreApp3.Controllers
             }
             return View(loginViewModel);
         }
-        
- public async Task<IActionResult> ConfirmEmail(string Id, string token)
+
+        public async Task<IActionResult> ConfirmEmail(string Id, string token)
         {
-            if(Id == null || token == null)
+            if (Id == null || token == null)
             {
                 TempData["message"] = "Geçersiz token bilgisi";
                 return View();
             }
 
-             var user = await _userManager.FindByIdAsync(Id);
+            var user = await _userManager.FindByIdAsync(Id);
 
             if (user != null)
             {
-                var result = await _userManager.ConfirmEmailAsync(user,token);
+                var result = await _userManager.ConfirmEmailAsync(user, token);
 
 
                 if (result.Succeeded)
                 {
                     TempData["message"] = "Hesabınız onaylandı";
-                    return RedirectToAction("Login","Account");
+                    return RedirectToAction("Login", "Account");
                 }
             }
 
             TempData["message"] = "Kullanıcı bulunamadı onaylandı";
-                    return View();
+            return View();
+        }
+
+
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+           [HttpPost]
+          public async Task<IActionResult> ForgotPassword(string Email)
+        {
+            if(string.IsNullOrEmpty(Email))
+            {
+                 TempData["message"] = "Eposta giriniz";
+                 return View();
+
+            }
+
+            var user = await _userManager.FindByEmailAsync(Email);
+            
+            if (user == null)
+            {
+                 TempData["message"] = "Eposta yok";
+
+                return View();
+            }
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+             var url = Url.Action("ResetPassword", "Account", new{user.Id,token});
+
+              await _emailSender.SendEmailAsync(user.Email, "Şifre Sıfırlama",$"Lütfen şifre değiştirmek için linke <a href='http://localhost:5041{url}'> tıklayınız. <a/>");
+
+              TempData["message"] = "Epostanıza gönderilen link ile şifrenizi sıfırlayabilirsiniz.";
+
+             return View();
+
         }
 
 
